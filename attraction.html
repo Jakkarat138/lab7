@@ -31,7 +31,7 @@
   redirect: "follow"
 };
 
-fetch("http://localhost/beem140/lab7/attractions/readone.php?id="+id, requestOptions)
+fetch("https://hosting.udru.ac.th/its66040233138/lab7/attractions/readone.php?id=1"+id, requestOptions)
   .then((response) => response.text())
   .then((result) => {
     var jsonObj = JSON.parse(result);
